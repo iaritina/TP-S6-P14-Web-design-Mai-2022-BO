@@ -1,6 +1,6 @@
 <?php
 
-use App\Http\Controllers\Api\Contents\ContentApiController;
+use App\Http\Controllers\api\Contents\ContentApiController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
