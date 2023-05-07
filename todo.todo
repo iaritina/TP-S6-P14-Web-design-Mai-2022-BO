@@ -1,0 +1,36 @@
+MiniProjet Web-Design S6
+    BackOffice
+        ✔ Authentification admin @done (06/05/2023 21:56:45)
+            ✔ Template: Gestion de contenus @high @done (06/05/2023 10:22:31)
+            ✔ Creer la page de connexion @high @done (06/05/2023 10:22:31)
+            ✔ Controller pour Authentification admin @done (06/05/2023 11:14:16)
+            ✔ Page qui liste tous les contenus @critical @done (06/05/2023 11:42:22)
+            ✔ CRUD des contenus (utiliser ckEditor, les contenus doivent respecter le SEO) @done (06/05/2023 21:56:40)
+            ☐ creer un controller get pour generer un utilisateur
+        ✔ Creation des controllers necessaires pour afficher le FrontOffice @done (06/05/2023 22:27:33)
+            ✔ Tester les donnees sur postman @done (06/05/2023 22:27:34)
+    FrontOffice (React)
+        ☐ Affichage des contenus a l'aide de l'api du BackOffice
+            ✔ creation composants qui recuperera le lien de l'api du BackOffice @high @done (07/05/2023 10:00:13)
+            ✔ importer Navmenu.js @done (07/05/2023 10:30:34)
+            ☐ Configurer les routes @high 
+            ✔ creation composants Contents: @critical @done (07/05/2023 11:26:16)
+                ✔ Contents (qui liste tous les contenus) @done (07/05/2023 10:31:53)
+                    ✔ Lien "voir contenu" pas boutton @critical @done (07/05/2023 11:26:13)
+                ✔ ShowContent (qui affiche un contenu) @done (07/05/2023 11:26:19)
+            ✔ creation page: @done (07/05/2023 13:04:30)
+                ✔ Home (qui recuperera le composant Content) @done (07/05/2023 10:32:00)
+                ✔ Content (qui affichera le contenu du composant ShowContent) @done (07/05/2023 11:26:23)
+            ✔ Creation fonction qui remplace les espaces en tirets (Titre) @done (07/05/2023 13:51:13)
+            ✔ H1 en titre @done (07/05/2023 13:51:14)
+            ✔ Url doit respecter le SEO pour un contenus (URL rewriting) @done (07/05/2023 13:11:12)
+            ✔ Utilisation de Helmet pour les meta description @critical @done (07/05/2023 15:59:40)
+            ☐ Test sur google speed page @high 
+    Base:
+        ✔ Table admin (username,password) @done (06/05/2023 09:10:02)
+        ✔ Table content(idcont, title, summary, description) @done (06/05/2023 09:10:03)
+
+    Deploiement:
+        ☐ Deploiement BO et BDD
+        ☐ Deploiement FO 
+        ☐ Test sur google page speed
