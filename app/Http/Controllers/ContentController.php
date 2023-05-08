@@ -36,7 +36,7 @@ class ContentController extends Controller
 
     public function edit($id)
     {
-        return view('edit', [
+        return view('Edit', [
             'content' => Content::findOrFail($id)
         ]);
     }
