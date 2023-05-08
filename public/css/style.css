@@ -30,6 +30,10 @@ a {
 .insertError {
   text-align: center;
 }
+.note {
+    text-decoration: underline;
+    color: red;
+}
 
 a:hover {
   color: #717ff5;
