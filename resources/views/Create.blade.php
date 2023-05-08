@@ -223,6 +223,11 @@
                                 </div>
                             </div>
                             <div class="row mb-3">
+                                <p class="note">Note:
+                                <p> Veuillez <b>glisser</b> l'image dans le formulaire ci-dessous pour ajouter une image. Cliquez
+                                sur <b>"Styles"</b>
+                                pour le deplacer de gauche a droite</p>
+                                </p>
                                 <label for="inputPassword3" class="col-sm-2 col-form-label">Description</label>
                                 <div class="col-sm-10">
                                     <textarea name="description" cols="80" rows="10" placeholder="Description"
